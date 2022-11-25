@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.:: MORO SRL ::.</title>
+
+    <!-- Custom Link -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="contenedor-padre">
+        <div id="div-rrss">
+            <a href="#">
+                <img src="./img/rrss/in-icon.svg" alt="in">
+            </a>
+            <a href="#">
+                <img src="./img/rrss/fb-icon.svg" alt="fb">
+            </a>
+            <a href="#">
+                <img src="./img/rrss/yt-icon.svg" alt="yt">
+            </a>
+            <a href="#">
+                <img src="./img/rrss/ig-icon.svg" alt="ig">
+            </a>
+        </div>
+        <nav id="nav-menu-principal">
+            <a href="./index.html" target="_self">
+                <img id="img-logo-cabecera" src="./img/imgLogo01.png" alt="Logo MORO">
+            </a>
+            <ul id="ul-menu-principal">
+                <li><a href="./index.html" target="_self">Inicio</a></li>
+                <li><a href="./nosotros.html" target="_self">Nosotros</a></li>
+                <li><a href="./servicios.html" target="_self">Servicios</a></li>
+                <li><a href="./proyectos.html" target="_self">Proyectos</a></li>
+                <li><a href="./contacto.html" target="_self">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contenedor-padre">
+        <section id="section-contenido-pagina">
+        <!-- ########################################## -->
+        <!-- SECCIÓN QUE SE PUEDE CAMBIAR ENTRE PAGINAS -->
+                <div id="div-img-portada">
+
+                    <div id="div-form" class="div-inline">
+                        <h1>Contáctenos</h1>
+                        <form action="btnEnviar" method="post">
+                            <label for="txtNombre">Nombre:</label><br>
+                            <input type="text" name="txtNombre" value="" size="45" id="txtNombre" aria-required="true" aria-invalid="false" placeholder="">
+                            <label for="txtEmail">Correo:</label><br>
+                            <input type="email" name="txtEmail" value="" size="45" id="txtEmail" aria-required="true" aria-invalid="false" placeholder="">
+                            <label for="txtAsunto">Asunto:</label><br>
+                            <input type="text" name="txtAsunto" value="" size="45" id="txtAsunto" aria-required="true" aria-invalid="false" placeholder="">
+                            <label for="txtMensaje">Mensaje:</label><br>
+                            <textarea name="txtMensaje" cols="45" rows="15" id="txtMensaje" aria-required="true" aria-invalid="false" placeholder=""></textarea>
+                            <!-- <button id="btnEnviar">Enviar</button> -->
+                            <input type="submit" id="btnEnviar" name="btnEnviar" value="Enviar">
+                        </form>
+                    </div>
+                    <div id="div-copy-form" class="div-inline">
+                        <h4>Nuestra Información</h4>
+                        <p>¿Tienes alguna duda o consulta?<br>Escríbenos y te responderemos a la brevedad.</p>
+                        <p>Av. Grande Grande 881, San Isidro, Lima - Perú<br>
+                            (511) 444 55 55 / (511) 884 5454<br>
+                            holas@morinmorito.pe<br>
+                            Lun - Vie : 09:00 - 18:00 / Sab : 09:30 - 12:00
+                        </p>
+                    </div>
+                </div>
+                <div id="div-copy-portada">
+                </div>
+        <!-- FIN SECCIÓN QUE SE PUEDE CAMBIAR ENTRE PAGINAS -->
+        <!-- ########################################## -->
+        </section>
+        <section id="section-noticias">
+            <div id="div-mapa">
+                <iframe id="iframe-mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115443.24314743925!2d51.441957503234576!3d25.283992567839277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x44d9319f78cfd4b1!2sDoha%2C%20Catar!5e0!3m2!1ses-419!2spe!4v1668996965772!5m2!1ses-419!2spe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="contenedor-padre">
+        <div id="div-footer">
+            <div id="pie-left" class="div-inline">
+                <img id="img-logo-pie" src="./img/imgLogo02.png" alt="Logo pie">
+            </div>
+            <div id="pie-right" class="div-inline">
+                Todos los derechos reservados. Diseño por <a href="#">CJJC</a>
+            </div>
+        </div>
+        <hr>
+    </footer>
+</body>
+</html>
